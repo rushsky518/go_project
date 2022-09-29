@@ -1,0 +1,7 @@
+
+taskperiod: 24
+indexpattern: "filebeat-*"
+retaindays: 7
+esurl: http://172.16.101.71:9200
+username: elastic
+password: sWk~Yt=#P9IL

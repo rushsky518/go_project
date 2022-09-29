@@ -1,0 +1,11 @@
+打包
+
+windows
+set GOOS=windows
+set GOARCH=amd64
+go build main.go
+
+linux
+set GOOS=linux
+set GOARCH=amd64
+go build main.go
