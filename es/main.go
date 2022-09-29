@@ -20,6 +20,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	// 值类型
 	task := conf.Task{}
 	err = yaml.Unmarshal(yamlFile, &task)
 	log.Println(string(yamlFile))
